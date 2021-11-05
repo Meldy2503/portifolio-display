@@ -47,6 +47,10 @@ body {
      padding: 3rem;
      font-size: 2.3rem;   
 }
+.nav-ul li a:hover {
+    background-color: #31436b;
+    padding: 2.1rem;
+}
 #welcome-section {
     background-image: linear-gradient(to right bottom, rgb(78, 78, 78), #000);
     height: 100vh;
@@ -77,26 +81,35 @@ body {
 .heading-3 {
     color: #fff;
     text-align: center;
-    font-size: 4rem;
-    padding-top: 25rem;
+    font-size: 3.6rem;
+    padding-top: 22rem;
+    text-decoration: underline;
+    text-underline-offset: 1.2rem;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 5.2rem 2rem;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    margin-top: -6rem;
+    margin-top: -3rem;
     
 }
 .column {
     flex: 32%;
-    
     padding: 5.2rem 2rem;
     margin: 0 auto;
+    transition: all .3s;
+    
 }
 .column img {
     height: 100%;
+    box-shadow: 1rem 2rem 3rem #000;
+    
+}
+.column:hover {
+    transform: translateY(-2rem) scale(1.05);
 }
 .caption {
     background-color: rgb(58, 58, 58);
@@ -105,4 +118,6 @@ body {
     padding: 2rem;
     text-align: center;
     margin-top: -1rem;
+    box-shadow: 1rem 2rem 3rem #000;
+    
 }
