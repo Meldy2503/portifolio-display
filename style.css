@@ -45,3 +45,25 @@ body {
      padding: 3rem;
      font-size: 2.3rem;   
 }
+#welcome-section {
+    background-image: linear-gradient(to right bottom, rgb(70, 69, 69), rgb(12, 12, 12));
+    height: 100vh;
+     
+}
+.heading {
+  color: #fff;
+  text-align: center;
+  padding-top: 28rem;
+  margin: 0 auto; 
+}
+.heading__1 {
+    font-size: 5.6rem;
+}
+.heading__2{
+    color: #d3003f;
+    font-family: 'Metal', cursive;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    font-size: 3.5rem;
+    
+}
