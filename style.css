@@ -16,7 +16,8 @@ html {
 }
 body {
     
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    
     font-size: 1.8rem;   
 }
 
@@ -26,6 +27,7 @@ body {
     top: 0;
     left: 0;
     right: 0;  
+    z-index: 4000;
     
 }
 
@@ -46,8 +48,9 @@ body {
      font-size: 2.3rem;   
 }
 #welcome-section {
-    background-image: linear-gradient(to right bottom, rgb(70, 69, 69), rgb(12, 12, 12));
+    background-image: linear-gradient(to right bottom, rgb(78, 78, 78), #000);
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
      
 }
 .heading {
@@ -58,12 +61,24 @@ body {
 }
 .heading__1 {
     font-size: 5.6rem;
+    letter-spacing: .4rem;
 }
 .heading__2{
     color: #d3003f;
     font-family: 'Metal', cursive;
     font-weight: 100;
     letter-spacing: .1rem;
-    font-size: 3.5rem;
+    font-size: 3.5rem; 
+}
+#projects {
+    background-color: #31436b;
+    margin-top: -20rem;
+}
+.heading-3 {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 25rem;
     
+
 }
