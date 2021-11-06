@@ -60,28 +60,26 @@ body {
 .heading {
   color: #fff;
   text-align: center;
-  padding-top: 28rem;
+  padding-top: 25rem;
   margin: 0 auto; 
 }
 .heading__1 {
+    margin-top: -5rem;
     font-size: 5.6rem;
-    letter-spacing: .4rem;
+    letter-spacing: .5rem;
 }
 .heading__2{
     color: #d3003f;
     font-family: 'Metal', cursive;
     font-weight: 100;
-    letter-spacing: .1rem;
-    font-size: 3.5rem; 
+    font-size: 3.3rem; 
+    margin-top: -2rem;
 }
 #projects {
     background-color: #31436b;
     margin-top: -20rem;
     text-align: center;
     padding-bottom: 12rem;
-    
-    
-    
 }
 .heading-3 {
     color: #fff;
@@ -138,9 +136,36 @@ body {
 
 }
 #contact-section {
-    background-image: linear-gradient(to right bottom, rgb(46, 44, 44), #000);
+    background-color: #1a252b;
     height: 90vh;
     clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
-    margin-top: -15rem;
+    margin-top: -15rem; 
+} 
+
+#contact-section ul {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-section ul li {
+    display: flex;
+    padding: 2rem;  
+}
+
+#contact-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    transition: all .3s;
+
     
-}  
+}
+#contact-section ul li a:hover {
+    transform: translateY(1rem);
+
+}
+
+hr {
+    border: 2px solid #d3003f;
+
+}
