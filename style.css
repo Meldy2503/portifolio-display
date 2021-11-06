@@ -77,6 +77,11 @@ body {
 #projects {
     background-color: #31436b;
     margin-top: -20rem;
+    text-align: center;
+    padding-bottom: 12rem;
+    
+    
+    
 }
 .heading-3 {
     color: #fff;
@@ -85,6 +90,7 @@ body {
     padding-top: 22rem;
     text-decoration: underline;
     text-underline-offset: 1.2rem;
+
 }
 
 .row {
@@ -121,3 +127,20 @@ body {
     box-shadow: 1rem 2rem 3rem #000;
     
 }
+.project-tile a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 1.5rem 2.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 6rem;
+
+}
+#contact-section {
+    background-image: linear-gradient(to right bottom, rgb(46, 44, 44), #000);
+    height: 90vh;
+    clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+    margin-top: -15rem;
+    
+}  
